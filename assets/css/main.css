@@ -100,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #76e819 15%, #3a94d8 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #76e819 15%, #3a94d8 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #76e819 15%, #3a94d8 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #76e819 15%, #3a94d8 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #cc74f2 15%, #3a94d8 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #cc74f2 15%, #3a94d8 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #cc74f2 15%, #3a94d8 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #cc74f2 15%, #3a94d8 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3525,10 +3525,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #cc74f2, #a89cc8, #8cc9f0);
+			background-image: -webkit-linear-gradient(90deg, #cc74f2, #a89cc8, #8cc9f0);
+			background-image: -ms-linear-gradient(90deg, #cc74f2, #a89cc8, #8cc9f0);
+			background-image: linear-gradient(90deg, #cc74f2, #a89cc8, #8cc9f0);
 		}
 
 		#main table tbody tr {
@@ -3762,3 +3762,97 @@ input, select, textarea {
 			}
 
 		}
+/*************************************************************/
+/* Mine                                                      */
+/*************************************************************/
+.skill-point {
+	height: 50px;
+	display: inline-block;
+}
+.skill-point span {
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+.skill-name {
+	display: inline-flex;
+	float: left;
+	font-size: 80%;
+	/* display: inline-block; */
+	/* vertical-align: middle; */
+}
+.skill-icon {
+	font-size: 175%;
+	/* vertical-align: middle; */
+	padding-right: 15px;
+}
+
+.skill-bar-dots {
+	margin: 10px;
+	display: inline-flex;
+	float: right;
+	padding-top: 5px;
+}
+.skill-dot {
+	margin: 3px;
+	height: 18px;
+	width: 18px;
+	max-height: 18px;
+	max-width: 18px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.lit {
+	background-color: #3a94d8;
+	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #377ece 15%, #3a94d8 85%);
+	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #377ece 15%, #3a94d8 85%);
+	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #377ece 15%, #3a94d8 85%);
+	background-image: url("images/overlay.png"), linear-gradient(45deg, #377ece 15%, #3a94d8 85%);
+}
+.not-lit {
+	background-color: #ccc;
+	background-image: url("images/overlay.png");
+}
+
+@media screen and (max-width: 1680px) {
+	.skill-dot {
+		margin: 4px;
+		height: 22px;
+		width: 22px;
+	}
+}
+@media screen and (max-width: 1280px) {
+	.skill-dot {
+		margin: 3px;
+		height: 20px;
+		width: 20px;
+	}
+}
+@media screen and (max-width: 980px) {
+	.skill-dot {
+		margin: 3px;
+		height: 18px;
+		width: 18px;
+	}
+}
+@media screen and (max-width: 736px) {
+	.skill-dot {
+		margin: 2px;
+		height: 16px;
+		width: 16px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.skill-dot {
+		margin: 2px;
+		height: 14px;
+		width: 14px;
+	}
+}
+@media screen and (max-width: 360px) {
+	.skill-dot {
+		margin: 1px;
+		height: 12px;
+		width: 12px;
+	}
+}
