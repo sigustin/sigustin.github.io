@@ -3771,6 +3771,18 @@ input, select, textarea {
 .skill-software {
 	padding-left: 5%;
 }
+.skill-languages-content {
+	position: relative;
+}
+.skill-languages-content:after {
+    content: '';
+    position: absolute;
+    /* right: 0; */
+	left: 106%;
+    border-right: 1px solid #dddddd;
+    top: 12%;
+    bottom: 10%;
+}
 
 .skill-item {
 	height: 50px;
@@ -3826,6 +3838,17 @@ input, select, textarea {
 @media screen and (max-width: 1680px) {
 	.skill-languages {
 		padding-right: 0;
+	}
+	.skill-languages-content {
+		position: inherit;
+	}
+	.skill-languages-content:after { /* Remove vertical ruler */
+	    content: inherit;
+	    position: inherit;
+		left: 0;
+	    border-right: 0;
+	    top: 0;
+	    bottom: 0;
 	}
 	.skill-software {
 		padding-left: 0;
