@@ -3765,6 +3765,13 @@ input, select, textarea {
 /*************************************************************/
 /* Mine                                                      */
 /*************************************************************/
+.skill-languages {
+	padding-right: 2%;
+}
+.skill-software {
+	padding-left: 5%;
+}
+
 .skill-item {
 	height: 50px;
 	display: inline-block;
@@ -3817,6 +3824,12 @@ input, select, textarea {
 }
 
 @media screen and (max-width: 1680px) {
+	.skill-languages {
+		padding-right: 0;
+	}
+	.skill-software {
+		padding-left: 0;
+	}
 	.skill-item {
 		max-width: 525px;
 		min-width: 295px;
