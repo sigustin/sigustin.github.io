@@ -3820,6 +3820,7 @@ input, select, textarea {
 	.skill-item {
 		max-width: 525px;
 		min-width: 295px;
+		margin: 0 17% 0 17%;
 	}
 	.skill-dot {
 		margin: 3px;
@@ -3831,6 +3832,7 @@ input, select, textarea {
 	.skill-item {
 		max-width: 480px;
 		min-width: 260px;
+		margin: 0 14% 0 14%;
 	}
 	.skill-dot {
 		margin: 2px;
@@ -3842,6 +3844,7 @@ input, select, textarea {
 	.skill-item {
 		max-width: 440px;
 		min-width: 260px;
+		margin: 0 13% 0 13%;
 	}
 	.skill-dot {
 		margin: 2px;
@@ -3853,6 +3856,7 @@ input, select, textarea {
 	.skill-item {
 		max-width: 630px;
 		min-width: 235px;
+		margin: 0 23% 0 23%;
 	}
 	.skill-dot {
 		margin: 2px;
@@ -3864,6 +3868,7 @@ input, select, textarea {
 	.skill-item {
 		max-width: 427px;
 		min-width: 230px;
+		margin: 0 17% 0 17%;
 	}
 	.skill-dot {
 		margin: 1px;
@@ -3872,9 +3877,10 @@ input, select, textarea {
 	}
 }
 @media screen and (max-width: 360px) {
-	.skill-name {
+	.skill-item {
 		max-width: 350px;
 		min-width: 200px;
+		margin: 0 15% 0 15%;
 	}
 	.skill-dot {
 		margin: 1px;
