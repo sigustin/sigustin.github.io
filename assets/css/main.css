@@ -3765,11 +3765,13 @@ input, select, textarea {
 /*************************************************************/
 /* Mine                                                      */
 /*************************************************************/
-.skill-point {
+.skill-item {
 	height: 50px;
 	display: inline-block;
+	/* max-width: 310px;
+	min-width: 300px; */
 }
-.skill-point span {
+.skill-item span {
 	line-height: 50px;
 	vertical-align: middle;
 }
@@ -3815,6 +3817,9 @@ input, select, textarea {
 }
 
 @media screen and (max-width: 1680px) {
+	.skill-item {
+		/* min-width: 1000px; */
+	}
 	.skill-dot {
 		margin: 4px;
 		height: 22px;

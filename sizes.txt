@@ -1,0 +1,26 @@
+col-6 col-12-medium col-12-small
+more => col-6
+max 1680 => col-6 pb
+max 1280 => col-6 pb
+max 980 => col-12-medium
+max 736 => col-12-small
+max 480 => col-12-small
+max 360 => col-12-small
+
+col-6 col-12-large col-12-medium col-12-small col-12-xsmall
+more => col-6
+max 1680 => col-6 pb
+max 1280 => col-12-large
+max 980 => col-12-medium
+max 736 => col-12-small
+max 480 => col-12-xsmall
+max 360 => col-12-xsmall
+
+col-6 col-12-xlarge col-12-large col-12-medium col-12-small col-12-xsmall
+more => col-6
+max 1680 => col-12-xlarge pb
+max 1280 => col-12-large
+max 980 => col-12-medium
+max 736 => col-12-small
+max 480 => col-12-xsmall
+max 360 => col-12-xsmall
