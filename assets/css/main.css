@@ -3843,7 +3843,7 @@ input, select, textarea {
 		position: inherit;
 	}
 	.skill-languages-content:after { /* Remove vertical ruler */
-	    content: inherit;
+	    content: none;
 	    position: inherit;
 		left: 0;
 	    border-right: 0;
