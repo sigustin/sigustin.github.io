@@ -3765,6 +3765,12 @@ input, select, textarea {
 /*************************************************************/
 /* Mine                                                      */
 /*************************************************************/
+.large {
+	font-size: 1.1em;
+	line-height: normal;
+}
+
+/* Skills */
 .skill-languages {
 	padding-right: 2%;
 }
@@ -3922,5 +3928,19 @@ input, select, textarea {
 		margin: 1px;
 		height: 12px;
 		width: 12px;
+	}
+}
+
+/* Education */
+.title {
+}
+
+.title-label {
+	text-align: left;
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 736px) {
+	.title-label {
+		text-align: center;
 	}
 }
