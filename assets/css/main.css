@@ -3933,6 +3933,7 @@ input, select, textarea {
 
 /* Education */
 .title {
+	font-style: italic;
 }
 
 .title-label {
