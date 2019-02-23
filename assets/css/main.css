@@ -3825,7 +3825,7 @@ input, select, textarea {
 	margin-right: 11%;
 }
 .flag-icon-img {
-	height: 0.75em;
+	height: 0.8em;
 	vertical-align: middle;
 }
 
@@ -3840,6 +3840,15 @@ input, select, textarea {
 	font-size: 175%;
 	/* vertical-align: middle; */
 	padding-right: 15px;
+}
+.skill-icon-img-container {
+	display: block;
+	margin-right: 15px;
+}
+.skill-icon-img {
+	max-height: 1.8em;
+	max-width: 1.8em;
+	vertical-align: middle;
 }
 
 .skill-bar-dots {
