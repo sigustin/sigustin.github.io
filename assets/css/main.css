@@ -3816,6 +3816,19 @@ input, select, textarea {
 	vertical-align: middle;
 }
 
+.flag-icon {
+	width: 2.3em !important;
+	margin-right: 25%;
+}
+.flag-icon-img-container {
+	display: block;
+	margin-right: 25%;
+}
+.flag-icon-img {
+	height: 1.2em;
+	vertical-align: middle;
+}
+
 .skill-name {
 	display: inline-flex;
 	float: left;
