@@ -3822,10 +3822,10 @@ input, select, textarea {
 }
 .flag-icon-img-container {
 	display: block;
-	margin-right: 25%;
+	margin-right: 11%;
 }
 .flag-icon-img {
-	height: 1.2em;
+	height: 0.75em;
 	vertical-align: middle;
 }
 
@@ -3914,6 +3914,9 @@ input, select, textarea {
 		margin: 2px;
 		height: 20px;
 		width: 20px;
+	}
+	.flag-icon-img-container {
+		margin-right: 25%;
 	}
 }
 @media screen and (max-width: 980px) {
