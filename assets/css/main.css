@@ -3771,6 +3771,10 @@ input, select, textarea {
 }
 
 /* Skills */
+.skill-natural-languages {
+	margin: auto;
+	margin-bottom: 25px;
+}
 .skill-languages {
 	padding-right: 2%;
 }
@@ -3797,6 +3801,17 @@ input, select, textarea {
 	min-width: 300px;
 }
 .skill-item span {
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+.skill-language-item {
+	height: 50px;
+	display: inline-block;
+	min-width: 24%;
+	padding: 0 2.3% 0 2.3%;
+}
+.skill-language-item span {
 	line-height: 50px;
 	vertical-align: middle;
 }
@@ -3859,6 +3874,9 @@ input, select, textarea {
 	.skill-software {
 		padding-left: 0;
 	}
+	.skill-language-item {
+		padding: 0 1% 0 1%;
+	}
 	.skill-item {
 		max-width: 525px;
 		min-width: 295px;
@@ -3871,6 +3889,9 @@ input, select, textarea {
 	}
 }
 @media screen and (max-width: 1280px) {
+	.skill-language-item {
+		padding: 0 7% 0 7%;
+	}
 	.skill-item {
 		max-width: 480px;
 		min-width: 260px;
@@ -3883,6 +3904,9 @@ input, select, textarea {
 	}
 }
 @media screen and (max-width: 980px) {
+	.skill-language-item {
+		padding: 0 27% 0 27%;
+	}
 	.skill-item {
 		max-width: 440px;
 		min-width: 260px;
@@ -3895,6 +3919,9 @@ input, select, textarea {
 	}
 }
 @media screen and (max-width: 736px) {
+	.skill-language-item {
+		padding: 0 23% 0 23%;
+	}
 	.skill-item {
 		max-width: 630px;
 		min-width: 235px;
@@ -3907,6 +3934,9 @@ input, select, textarea {
 	}
 }
 @media screen and (max-width: 480px) {
+	.skill-language-item {
+		padding: 0 18% 0 18%;
+	}
 	.skill-item {
 		max-width: 427px;
 		min-width: 230px;
@@ -3919,6 +3949,9 @@ input, select, textarea {
 	}
 }
 @media screen and (max-width: 360px) {
+	.skill-language-item {
+		padding: 0 15% 0 15%;
+	}
 	.skill-item {
 		max-width: 350px;
 		min-width: 200px;
